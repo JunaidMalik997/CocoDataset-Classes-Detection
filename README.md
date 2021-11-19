@@ -125,7 +125,10 @@ Upload any image, containing 80 classes of COCO dataset and you will get Object 
 2. Images greater than 1 MB are not accepted.
 
 3. Allowed Image types are jpg, jpeg, png and gif
+
 # Demo Video:
 
-https://user-images.githubusercontent.com/58310295/142603829-7ca24c84-8a68-4795-9638-bbc955f14533.mp4
+https://user-images.githubusercontent.com/58310295/142611566-e1ab5877-8f52-44b5-9988-a8824802fb07.mp4
+
+
 
