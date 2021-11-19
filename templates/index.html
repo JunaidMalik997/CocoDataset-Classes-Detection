@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/mainpage.css">
+</head>
+<body>
+<h1>Object Detection Using COCO Dataset</h1>
+<hr>
+
+<p>YOLO Pre-Trained Model is Trained on 80 Classes. These 80 Classes belong to the COCO Dataset.
+    Just Upload any Image containing any of those Classes and Get Detections on the go.</p>
+<hr>
+<p>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</p>
+<form action="/" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <br>
+    <input type="submit" value="Predict">
+    <br>
+    <hr>
+    {% if upload %}
+    <img src='static/images/{{savedDetection}}'>
+    <br>
+    <a href="{{(fileSharer.share())}}" target="_blank">View and Download Image</a>
+    {% endif %}
+    <br>
+    <hr>
+    <a href="{{url_for('cococlasses_page')}}">View Classes of Coco Dataset</a>
+</form>
+</body>
+</html>

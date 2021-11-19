@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/classpage.css">
+</head>
+<body>
+<h1>Classes Present in Coco Dataset</h1>
+<hr>
+<p>The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point
+    detection, and captioning dataset.  The dataset consists of 328K images containing 80 Classes displayed below.</p>
+<hr>
+<a href="{{url_for('homepage')}}">Go back to the HomePage</a>
+<hr>
+<ul>
+    {% for names in class_names %}
+    <li>{{names}}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
