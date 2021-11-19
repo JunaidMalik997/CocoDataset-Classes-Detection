@@ -1,0 +1,39 @@
+h1
+{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+p
+{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: lightgrey;
+    color: blue;
+}
+
+a
+{
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul
+{
+    list-style-position: inside;
+    list-style-type: square;
+    padding: 20px;
+}
+
+body
+{
+    background-color: #fefbd8;
+}

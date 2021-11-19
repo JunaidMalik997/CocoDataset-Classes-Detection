@@ -1,0 +1,68 @@
+h1
+{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+p
+{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: lightgrey;
+    color: blue;
+}
+
+input[type=button], input[type=submit]
+{
+    width: 100%;
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=file]
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    display:block;
+}
+
+a
+{
+    display:block;
+    margin: auto;
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body
+{
+    background-color: #fefbd8;
+}
+
+
